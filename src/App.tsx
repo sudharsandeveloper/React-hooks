@@ -10,7 +10,13 @@ const App = () => {
             <Link to={'/'}>Home</Link>
           </li>
           <li>
+            <Link to={'/input'}>Input View</Link>
+          </li>
+          <li>
             <Link to={'/todo'}>Todo</Link>
+          </li>
+          <li>
+            <Link to={'/color-picker'}>Color Picker</Link>
           </li>
         </ul>
       </nav>
