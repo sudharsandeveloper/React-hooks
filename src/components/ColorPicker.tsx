@@ -11,7 +11,7 @@ const ColorPicker: React.FC = () => {
     ];
 
     useEffect(() => {
-        document.body.style.backgroundColor = color || 'white'
+        document.body.style.backgroundColor = color || 'white';
     }, [color])
     
     const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {

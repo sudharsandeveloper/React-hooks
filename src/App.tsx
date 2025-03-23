@@ -18,6 +18,9 @@ const App = () => {
           <li>
             <Link to={'/color-picker'}>Color Picker</Link>
           </li>
+          <li>
+            <Link to={'/register'}>register user</Link>
+          </li>
         </ul>
       </nav>
     </section>
